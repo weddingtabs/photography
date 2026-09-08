@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #1a1614;
+  --color-cream: #faf6f0;
+  --color-gold: #c9a227;
+  --font-heading: "Playfair Display", serif;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--color-cream);
+}
