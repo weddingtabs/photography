@@ -10,7 +10,7 @@ export default function About() {
       <p className="text-charcoal/70 leading-relaxed mb-6">
         At Wedding Tabs Studio, we believe every moment tells a story worth preserving. With over 8 years of
         experience and 150+ weddings captured, we bring together technical excellence and artistic vision to
-        create photographs that speak to your heart.
+        create photographs that speak to your hearts.
       </p>
       <p className="text-charcoal/70 leading-relaxed">
         Our team of passionate photographers and videographers are dedicated to capturing the essence of your
