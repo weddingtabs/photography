@@ -19,7 +19,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://photography-beta-one.vercel.app",   # replace with real production URL
+        "https://photography-beta-one.vercel.app",
+        "https://www.weddingtabs.com",   # replace with real production URL
     ],
     allow_credentials=True,
     allow_methods=["*"],
