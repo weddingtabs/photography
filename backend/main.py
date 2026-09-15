@@ -39,7 +39,10 @@ class BookingRequest(BaseModel):
     distance_km: Optional[float] = None
     estimate: Optional[float] = None
     location: Optional[str] = None
+    latitude: Optional[float] = None
+    longitude: Optional[float] = None
     services_selected: Optional[list] = None
+    sub_events_selected: Optional[list] = None
     album_selected: Optional[str] = None
     deliverables_selected: Optional[list] = None
     notes: Optional[str] = None
@@ -85,7 +88,10 @@ def create_booking(booking: BookingRequest):
         "status": "Pending",
         "event_type": booking.shoot_type,
         "location": booking.location,
+        "latitude": booking.latitude,
+        "longitude": booking.longitude,
         "services_selected": booking.services_selected,
+        "sub_events_selected": booking.sub_events_selected,
         "album_selected": booking.album_selected,
         "deliverables_selected": booking.deliverables_selected,
         "notes": booking.notes,
