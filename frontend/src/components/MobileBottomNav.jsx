@@ -1,11 +1,11 @@
 import { NavLink } from 'react-router-dom'
-import { Home, Image, Camera, MessageCircleQuestion, Phone } from 'lucide-react'
+import { Home, Image, Camera, User, Phone } from 'lucide-react'
 
 const items = [
   { to: '/', label: 'Home', icon: Home, end: true },
   { to: '/portfolio', label: 'Portfolio', icon: Image },
   { to: '/services', label: 'Services', icon: Camera },
-  { to: '/get-quote', label: 'Get Quote', icon: MessageCircleQuestion },
+  { to: '/about', label: 'About', icon: User },
   { to: '/contact', label: 'Contact', icon: Phone },
 ]
 

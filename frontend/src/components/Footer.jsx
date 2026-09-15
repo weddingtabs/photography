@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin, Instagram, Youtube } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="bg-charcoal text-cream">
+    <footer className="hidden lg:block bg-charcoal text-cream">
       <div className="max-w-6xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
         <div className="space-y-4">
           <div className="flex items-center gap-3">
@@ -30,6 +30,7 @@ export default function Footer() {
             <li><a href="/services">Services</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/contact">Contact</a></li>
+            <li><a href="/track-booking">Track Booking</a></li>
           </ul>
         </div>
 
