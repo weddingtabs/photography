@@ -106,7 +106,7 @@ export default function Home() {
       <Helmet><title>Wedding Tabs Studio | Premium Photography</title></Helmet>
 
       {/* Hero */}
-      <div className="relative h-[85vh] min-h-[600px] flex items-end overflow-hidden">
+      <div className="relative h-[85vh] min-h-[1000px] max-h-[1400px] flex items-end overflow-hidden">
         <img
           src={heroWedding}
           alt="Wedding photography"
