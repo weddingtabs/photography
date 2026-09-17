@@ -1,4 +1,4 @@
-// const PHONE = '917093093440'
+// const PHONE = '918008198502'
 // const MESSAGE = encodeURIComponent("Hi! I'd like to enquire about photography services.")
 
 // export default function WhatsAppButton() {
@@ -18,7 +18,7 @@
 //   )
 // }
 
-const PHONE = '917093093440'
+const PHONE = '918008198502'
 const MESSAGE = encodeURIComponent("Hi! I'd like to enquire about photography services.")
 
 export default function WhatsAppButton() {

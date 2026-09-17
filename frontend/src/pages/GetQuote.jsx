@@ -4,7 +4,7 @@
 // // import { supabase } from '../supabaseClient'
 
 // // const API_URL = import.meta.env.VITE_API_URL
-// // const STUDIO_WHATSAPP = '917093093440'
+// // const STUDIO_WHATSAPP = '918008198502'
 // // const iconMap = { '🎂': Cake, '💍': Gem, '🥻': Sparkles, '❤️': Heart }
 
 // // export default function GetQuote() {
@@ -346,7 +346,7 @@
 // import { supabase } from '../supabaseClient'
 
 // const API_URL = import.meta.env.VITE_API_URL
-// const STUDIO_WHATSAPP = '917093093440'
+// const STUDIO_WHATSAPP = '918008198502'
 // const iconMap = { '🎂': Cake, '💍': Gem, '🥻': Sparkles, '❤️': Heart }
 
 // const EMAILJS_SERVICE_ID = 'service_ycr3pqf'
@@ -756,7 +756,7 @@ import emailjs from '@emailjs/browser'
 import { supabase } from '../supabaseClient'
 
 const API_URL = import.meta.env.VITE_API_URL
-const STUDIO_WHATSAPP = '917093093440'
+const STUDIO_WHATSAPP = '918008198502'
 const iconMap = { '🎂': Cake, '💍': Gem, '🥻': Sparkles, '❤️': Heart }
 
 const EMAILJS_SERVICE_ID = 'service_ycr3pqf'

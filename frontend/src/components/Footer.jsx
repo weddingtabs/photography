@@ -47,8 +47,8 @@ export default function Footer() {
         <div>
           <h4 className="font-heading text-lg font-semibold mb-4">Contact Us</h4>
           <ul className="space-y-4 text-sm text-cream/70">
-            <li className="flex items-start gap-3"><Phone className="w-4 h-4 text-gold mt-0.5" /> +91 70930 93440</li>
-            <li className="flex items-start gap-3"><Mail className="w-4 h-4 text-gold mt-0.5" /> hello@dreammoments.studio</li>
+            <li className="flex items-start gap-3"><Phone className="w-4 h-4 text-gold mt-0.5" /> +91 80081 98502</li>
+            <li className="flex items-start gap-3"><Mail className="w-4 h-4 text-gold mt-0.5" /> Weddingtabsphotography@gmail.com</li>
             <li className="flex items-start gap-3"><MapPin className="w-4 h-4 text-gold mt-0.5" /> Mumbai, Maharashtra, India</li>
           </ul>
         </div>
