@@ -3686,15 +3686,9 @@ function PointerReorderGrid({ items, onReorder, onRemove }) {
               <img src={img.url} alt={img.category} draggable={false} className="w-full h-full object-cover pointer-events-none" />
             )}
 
-            <span className="absolute top-2 right-8 bg-charcoal/70 text-cream text-[10px] px-2 py-0.5 rounded-full pointer-events-none">
+            <span className="absolute top-2 left-9 max-w-[calc(100%-5.5rem)] bg-charcoal/70 text-cream text-[10px] px-2 py-0.5 rounded-full pointer-events-none truncate">
               {img.category}
             </span>
-
-            {img.title && (
-              <span className="absolute bottom-0 left-0 right-0 bg-charcoal/70 text-cream text-[10px] px-2 py-1 truncate pointer-events-none">
-                {img.title}{img.duration ? ` · ${img.duration}` : ''}
-              </span>
-            )}
 
             <button
               onClick={() => onRemove(img.id)}
@@ -3702,6 +3696,12 @@ function PointerReorderGrid({ items, onReorder, onRemove }) {
             >
               Remove
             </button>
+
+            {img.title && (
+              <span className="absolute bottom-0 left-0 right-0 bg-charcoal/70 text-cream text-[10px] px-2 py-1 truncate pointer-events-none">
+                {img.title}{img.duration ? ` · ${img.duration}` : ''}
+              </span>
+            )}
           </div>
         )
       })}
