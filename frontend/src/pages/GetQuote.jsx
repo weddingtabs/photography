@@ -975,7 +975,7 @@ ${subEventLines || 'None'}
         <label className="text-xs text-charcoal/50 mb-1 block">Venue Name / City</label>
         <div className="relative mb-3">
           <MapPin className="w-4 h-4 text-charcoal/40 absolute left-3 top-1/2 -translate-y-1/2" />
-          <input placeholder="e.g., Grand Palace, Mumbai" value={venue} onChange={(e) => setVenue(e.target.value)}
+          <input placeholder="e.g., MVP, Visakhapatnam" value={venue} onChange={(e) => setVenue(e.target.value)}
             className="w-full border border-charcoal/20 rounded-lg pl-9 pr-3 py-3" />
         </div>
         <button type="button" onClick={detectLocation} disabled={locating}

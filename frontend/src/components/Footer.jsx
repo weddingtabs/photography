@@ -49,7 +49,7 @@ export default function Footer() {
           <ul className="space-y-4 text-sm text-cream/70">
             <li className="flex items-start gap-3"><Phone className="w-4 h-4 text-gold mt-0.5" /> +91 80081 98502</li>
             <li className="flex items-start gap-3"><Mail className="w-4 h-4 text-gold mt-0.5" /> Weddingtabsphotography@gmail.com</li>
-            <li className="flex items-start gap-3"><MapPin className="w-4 h-4 text-gold mt-0.5" /> Mumbai, Maharashtra, India</li>
+            <li className="flex items-start gap-3"><MapPin className="w-4 h-4 text-gold mt-0.5" /> MVP, Visakhapatnam, India</li>
           </ul>
         </div>
       </div>
