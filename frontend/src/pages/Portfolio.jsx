@@ -270,8 +270,7 @@ export default function Portfolio() {
     <div className="pt-32 pb-20 max-w-6xl mx-auto px-4">
     <Helmet>
       <title>Portfolio | Wedding Tabs Studio — Professional Photography in Vizag</title>
-      <meta name="description" content="View our portfolio of wedding, pre-wedding, portrait, and event photography from shoots across Visakhapatnam and Andhra Pradesh." />
-      <link rel="canonical" href="https://weddingtabs.com/portfolio" />
+      <meta name="description" content="View our portfolio of wedding, pre-wedding, portrait, and event photography from shoots across Visakhapatnam." />      <link rel="canonical" href="https://weddingtabs.com/portfolio" />
     </Helmet>
       <h1 className="font-heading text-4xl font-semibold text-charcoal mb-4">Our Portfolio</h1>
       <p className="text-charcoal/70 mb-8">Explore our finest work across weddings, portraits, events and more.</p>

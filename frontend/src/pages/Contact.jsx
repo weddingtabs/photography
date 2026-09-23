@@ -366,8 +366,7 @@ ${message}`
     <div>
       <Helmet>
         <title>Contact Us | Wedding Tabs Studio, Visakhapatnam</title>
-        <meta name="description" content="Contact Wedding Tabs Studio in Visakhapatnam by phone, WhatsApp, or email to book professional wedding and event photography." />
-        <link rel="canonical" href="https://weddingtabs.com/contact" />
+        <meta name="description" content="Contact Wedding Tabs Studio in Visakhapatnam by phone, WhatsApp, or email to book your wedding photography." />        <link rel="canonical" href="https://weddingtabs.com/contact" />
       </Helmet>
 
       <div className="pt-32 pb-16 text-center max-w-2xl mx-auto px-4">

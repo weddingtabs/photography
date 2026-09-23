@@ -949,8 +949,7 @@ ${subEventLines || 'None'}
     <div className="pt-32 pb-24 max-w-2xl mx-auto px-4">
       <Helmet>
         <title>Request a Quote | Wedding Tabs Studio, Visakhapatnam</title>
-        <meta name="description" content="Request an instant photography quote for your wedding, engagement, or event in Visakhapatnam. Transparent pricing for every budget." />
-        <link rel="canonical" href="https://weddingtabs.com/get-quote" />
+        <meta name="description" content="Request an instant photography quote for your wedding or event in Visakhapatnam. Transparent pricing for every budget." />        <link rel="canonical" href="https://weddingtabs.com/get-quote" />
       </Helmet>
       <div className="text-center mb-8">
         <span className="text-gold text-xs font-semibold uppercase tracking-wider">Transparent Pricing</span>

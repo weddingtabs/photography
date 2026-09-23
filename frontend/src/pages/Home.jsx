@@ -272,8 +272,7 @@ export default function Home() {
 
       <Helmet>
         <title>Wedding Tabs Studio | Professional Wedding Photography in Visakhapatnam</title>
-        <meta name="description" content="Wedding Tabs Studio delivers professional wedding and event photography in Visakhapatnam, serving every budget with 8+ years of experience and 500+ satisfied clients." />
-        <link rel="canonical" href="https://weddingtabs.com/" />
+        <meta name="description" content="Professional wedding photography in Visakhapatnam for every budget. 8+ years experience, 500+ happy clients." />        <link rel="canonical" href="https://weddingtabs.com/" />
       </Helmet>
     
 

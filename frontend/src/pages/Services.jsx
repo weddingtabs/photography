@@ -112,7 +112,7 @@ export default function Services() {
     <div className="pb-20">
       <Helmet>
         <title>Photography Packages & Pricing | Wedding Tabs Studio, Vizag</title>
-        <meta name="description" content="Transparent wedding photography packages in Visakhapatnam for every budget. Compare our Essential, Premium, and Luxury packages and request a custom quote." />
+        <meta name="description" content="Transparent wedding photography packages in Visakhapatnam for every budget. Compare packages and request a quote." />
         <link rel="canonical" href="https://weddingtabs.com/services" />
       </Helmet>
 
