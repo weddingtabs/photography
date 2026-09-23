@@ -73,7 +73,12 @@ const TEAM = [
 export default function About() {
   return (
     <div>
-      <Helmet><title>About Us | Wedding Tabs Studio</title></Helmet>
+
+      <Helmet>
+        <title>About Us | Wedding Tabs Studio — Professional Wedding Photography in Vizag</title>
+        <meta name="description" content="Wedding Tabs Studio has captured 150+ weddings across Visakhapatnam over 8 years, delivering professional, high-quality photography at every budget. Learn about our story and team." />
+        <link rel="canonical" href="https://weddingtabs.com/about" />
+      </Helmet>
 
       {/* Hero */}
       <div className="max-w-6xl mx-auto px-4 pt-32 pb-20 grid md:grid-cols-2 gap-12 items-center">

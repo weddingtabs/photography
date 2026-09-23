@@ -268,8 +268,11 @@ export default function Portfolio() {
 
   return (
     <div className="pt-32 pb-20 max-w-6xl mx-auto px-4">
-      <Helmet><title>Portfolio | Wedding Tabs Studio</title></Helmet>
-
+    <Helmet>
+      <title>Portfolio | Wedding Tabs Studio — Professional Photography in Vizag</title>
+      <meta name="description" content="View our portfolio of wedding, pre-wedding, portrait, and event photography from shoots across Visakhapatnam and Andhra Pradesh." />
+      <link rel="canonical" href="https://weddingtabs.com/portfolio" />
+    </Helmet>
       <h1 className="font-heading text-4xl font-semibold text-charcoal mb-4">Our Portfolio</h1>
       <p className="text-charcoal/70 mb-8">Explore our finest work across weddings, portraits, events and more.</p>
 
@@ -296,8 +299,7 @@ export default function Portfolio() {
         {filteredPhotos.map((img) => (
           <div key={img.id} className="rounded-2xl overflow-hidden group relative bg-white shadow-sm">
             <div className="aspect-[4/5] bg-charcoal/5 relative">
-              <img src={img.url} alt={img.title || img.category} className="w-full h-full object-cover transition duration-300 group-hover:scale-105" />
-              <div className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/30 transition flex items-end justify-center pb-4 pointer-events-none">
+                <img src={img.url} alt={img.title || img.category} loading="lazy" className="w-full h-full object-cover transition duration-300 group-hover:scale-105" />              <div className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/30 transition flex items-end justify-center pb-4 pointer-events-none">
                 <span className="text-cream text-sm font-medium opacity-0 group-hover:opacity-100 transition">
                   {img.title || img.category}
                 </span>

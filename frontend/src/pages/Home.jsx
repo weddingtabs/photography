@@ -269,7 +269,13 @@ const FEATURED_PORTFOLIO = [
 export default function Home() {
   return (
     <div>
-      <Helmet><title>Wedding Tabs Studio | Premium Photography</title></Helmet>
+
+      <Helmet>
+        <title>Wedding Tabs Studio | Professional Wedding Photography in Visakhapatnam</title>
+        <meta name="description" content="Wedding Tabs Studio delivers professional wedding and event photography in Visakhapatnam, serving every budget with 8+ years of experience and 500+ satisfied clients." />
+        <link rel="canonical" href="https://weddingtabs.com/" />
+      </Helmet>
+    
 
       {/* Hero */}
       <div className="relative h-[75vh] min-h-[520px] sm:min-h-[600px] md:min-h-[700px] max-h-[900px] flex items-end overflow-hidden">

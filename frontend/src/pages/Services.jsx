@@ -110,7 +110,11 @@ export default function Services() {
 
   return (
     <div className="pb-20">
-      <Helmet><title>Services & Pricing | Wedding Tabs Studio</title></Helmet>
+      <Helmet>
+        <title>Photography Packages & Pricing | Wedding Tabs Studio, Vizag</title>
+        <meta name="description" content="Transparent wedding photography packages in Visakhapatnam for every budget. Compare our Essential, Premium, and Luxury packages and request a custom quote." />
+        <link rel="canonical" href="https://weddingtabs.com/services" />
+      </Helmet>
 
       {/* Hero */}
       <div className="pt-32 pb-16 text-center max-w-2xl mx-auto px-4">

@@ -31,8 +31,10 @@ export default function TrackBooking() {
 
   return (
     <div className="pt-32 pb-20 max-w-xl mx-auto px-4">
-      <Helmet><title>Track Your Booking | Wedding Tabs Studio</title></Helmet>
-
+      <Helmet>
+        <title>Track Your Booking | Wedding Tabs Studio</title>
+        <meta name="robots" content="noindex, follow" />
+      </Helmet>
       <h1 className="font-heading text-4xl font-semibold text-charcoal mb-2">Track Your Booking</h1>
       <p className="text-charcoal/70 mb-8">Enter your phone number to check your booking status.</p>
 
