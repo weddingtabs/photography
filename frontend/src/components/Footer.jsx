@@ -7,8 +7,7 @@ export default function Footer() {
         <div className="space-y-4">
           <div className="flex items-center gap-3">
             <img src="/logo.jpeg" alt="Wedding Tabs Logo" className="w-10 h-10 rounded-full object-cover" />
-            <span className="font-heading text-xl font-semibold">Wedding Tabs</span>
-          </div>
+            <span className="font-heading text-xl font-semibold">Wedding Tabs Photography</span>          </div>
           <p className="text-cream/70 text-sm leading-relaxed">
             Capturing your precious moments with artistry and passion.
           </p>

@@ -75,8 +75,9 @@ export default function About() {
     <div>
 
       <Helmet>
-        <title>About Us | Wedding Tabs Studio — Professional Wedding Photography in Vizag</title>
-        <meta name="description" content="Wedding Tabs Studio has captured 150+ weddings across Visakhapatnam over 8 years. Learn about our story and team." />        <link rel="canonical" href="https://weddingtabs.com/about" />
+        <title>About Us | Wedding Tabs Photography — Vizag</title>
+        <meta name="description" content="Wedding Tabs Photography has captured 150+ weddings across Visakhapatnam over 8 years. Learn about our story and team." />
+        <link rel="canonical" href="https://weddingtabs.com/about" />
       </Helmet>
 
       {/* Hero */}
